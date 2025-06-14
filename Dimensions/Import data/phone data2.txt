@@ -1,0 +1,6 @@
+Release Date,Make,Model,Annual Production
+2020-10-23,Apple,iPhone 12,75 million
+2021-01-14,Samsung,Galaxy S21,60 million
+2021-03-23,Xiaomi,Mi 11,35 million
+2021-09-24,Apple,iPhone 13,80 million
+2022-01-11,Samsung,Galaxy S22,65 million
