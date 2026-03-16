@@ -1,7 +1,11 @@
 import pandas as pd
-
-data = pd.read_csv("sales_data_sample.csv", encoding="latin1")
-print("Display the shape of data: ")
-print(data.shape)
-# print("Display the columns Names: ")
-print("Display the columns Names: \n",data.columns)
+def intro():
+  data = pd.read_csv("sales_data_sample.csv", encoding="latin1")
+  print("Displaying the shape of the data:")
+  rows , columns = data.shape
+  print(f"row: {rows},\ncolumns: {columns}")
+  columns_names = data.columns # display the column labels
+  print(columns_names)
+  row_names = data.index
+  print("\n", row_names)
+intro()
