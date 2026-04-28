@@ -9,11 +9,11 @@ info = {
 
 df = pd.DataFrame(info)
 
-# print(df)
+print(df)
 
-# As we have to add a column to the dataframe so for that we should use method to do that:
-# first assigning the values to new data:
+As we have to add a column to the dataframe so for that we should use method to do that:
+first assigning the values to new data:
 
-# df["Bonus"] = df["Salary"] * 0.1
+df["Bonus"] = df["Salary"] * 0.1
 
-# print(df)
+print(df)
